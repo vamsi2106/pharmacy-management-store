@@ -1,0 +1,123 @@
+/* Main styles */
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar styling */
+.navbar-brand {
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+/* Product card styling */
+.product-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    height: 200px;
+    object-fit: contain;
+}
+
+.product-category {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+/* Forms styling */
+.auth-form {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.form-heading {
+    color: #0d6efd;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Cart styling */
+.cart-item {
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.cart-total {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Prescription upload styling */
+.prescription-uploader {
+    border: 2px dashed #0d6efd;
+    border-radius: 8px;
+    padding: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.prescription-uploader:hover {
+    background-color: rgba(13, 110, 253, 0.05);
+}
+
+/* Order history styling */
+.order-item {
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.order-status {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+.status-pending {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.status-confirmed {
+    background-color: #17a2b8;
+    color: #ffffff;
+}
+
+.status-shipped {
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+.status-delivered {
+    background-color: #198754;
+    color: #ffffff;
+}
+
+.status-cancelled {
+    background-color: #dc3545;
+    color: #ffffff;
+} 
